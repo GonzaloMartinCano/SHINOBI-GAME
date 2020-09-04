@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(49, 19, 19);
+    display: flex;
+    justify-items: center;
+    align-content: center;
+}
+
+.header{
+    text-align: center;
+    margin-top: 50px;
+    transition: all 3s;
+    height: 100px
+    }
+
+.header.vanish {
+   height: 0px;
+   margin: 0 auto;
+}
+
+
+.pregame {
+  animation-duration: 3s;
+  animation-name: fire;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes fire {
+    from {
+        background: linear-gradient(#f29100 , #700607 40%, #221111) no-repeat #221111;
+    }
+    
+    to {
+     margin-left:0%;
+     width:100%;
+     background: linear-gradient(#f29100 , #cc0000 , #1f0203 90%) no-repeat #1f0203;
+   }
+}
+
+.main {
+    width: 940;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+
+}
+
+.left,
+.right {
+    width: 150px;
+    height: 600px;
+    padding: 10px;
+    margin: 100px auto;
+    
+}
+
+.left img,
+.right img {
+    width: 150px
+    
+}
+
+#audios {
+    display:none
+ }
+
+ .game {
+     margin: 20px auto;
+     background-image: url(../images/welcome.png);
+ }
