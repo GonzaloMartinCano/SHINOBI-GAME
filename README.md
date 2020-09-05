@@ -12,5 +12,8 @@ Recreation of the mythical platform game Shinobi with Canvas, JavaScritp, HTML5.
 
 * Player & enemy animations.
 
+* Game marker.
+
+
 
 CLIK TO PLAY : https://zalillo18.github.io/SHINOBI-GAME/
