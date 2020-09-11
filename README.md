@@ -8,5 +8,6 @@ Free style recreation of the mythical platform game Shinobi with Canvas, JavaScr
 * Decorations, some with platform effects.
 * Player & enemy animations.
 * Game marker.
+* Audio.
 
 CLIK TO PLAY : https://zalillo18.github.io/SHINOBI-GAME/
