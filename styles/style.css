@@ -7,12 +7,20 @@ body {
     align-content: center;
 }
 
+li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
 .header{
     text-align: center;
     margin-top: 50px;
     transition: all 3s;
     height: 100px
+    /* //transition-delay: 3s; */
     }
+
+
 
 .header.vanish {
    height: 0px;
@@ -24,6 +32,8 @@ body {
   animation-duration: 3s;
   animation-name: fire;
   animation-iteration-count: infinite;
+    /* background: linear-gradient(#f29100 , #cc0000 , #1f0203 90%) no-repeat #1f0203; */
+    /* linear-gradient(#f29100, #580607) no-repeat #580607;            */
 
 }
 
@@ -61,6 +71,62 @@ body {
     width: 150px
     
 }
+
+footer{
+    width: 900px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    transition: all 3s;
+}
+
+footer.vanish {
+   height: 0px;
+   margin: 0 auto;
+   display: none;
+}
+
+.footer {
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    background-color: #f29100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(49, 19, 19);
+    line-height: 1.2em;
+}
+
+
+.footer:hover {
+    position: relative;
+    
+}
+
+.footer span{
+    margin: auto auto;
+}
+
+.footer:hover span {
+    display: none
+}
+
+.footer div {
+    display: none;
+    background-color: #f29100;
+    width: 260px;
+    padding: 20px;
+
+}
+
+.footer:hover div {
+    position: absolute;
+    bottom: 5px;
+    display: inline-block;
+    
+}
+
 
 #audios {
     display:none
