@@ -11,3 +11,5 @@ Free style recreation of the mythical platform game Shinobi with Canvas, JavaScr
 * Audio.
 
 CLIK TO PLAY : https://zalillo18.github.io/SHINOBI-GAME/
+
+![Alt text](https://raw.githubusercontent.com/Zalillo18/SHINOBI-GAME/master/Shinobi.png)
